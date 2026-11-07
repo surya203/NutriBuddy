@@ -18,9 +18,16 @@ class ApiError(Exception):
         super().__init__(detail)
 
 
+def _default_base_url() -> str:
+    configured = os.getenv("BACKEND_URL", "").strip()
+    if configured:
+        return configured.rstrip("/")
+    return "https://nutribuddy-api.onrender.com"
+
+
 class NutriBuddyClient:
     def __init__(self, base_url: str | None = None) -> None:
-        self.base_url = (base_url or os.getenv("BACKEND_URL", "http://localhost:8000")).rstrip("/")
+        self.base_url = (base_url or _default_base_url()).rstrip("/")
 
     def health(self) -> dict[str, Any]:
         return self._request("GET", "/health")
@@ -91,10 +98,13 @@ class NutriBuddyClient:
                 headers=headers,
                 json=json,
                 params=params,
-                timeout=40.0,
+                timeout=90.0,
             )
         except httpx.HTTPError as exc:
-            raise ApiError(0, "The NutriBuddy server is not running. Start the API, then refresh this page.") from exc
+            raise ApiError(
+                0,
+                "The NutriBuddy server is not reachable yet. Wait a few seconds, then refresh this page.",
+            ) from exc
         if response.status_code >= 400:
             raise ApiError(response.status_code, _detail(response))
         if not response.content:
