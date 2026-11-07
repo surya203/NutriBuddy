@@ -1,0 +1,191 @@
+[
+  {
+    "id": "fv-1",
+    "topic": "Fruits and vegetables",
+    "difficulty": "easy",
+    "question": "Which of these foods contains vitamin A?",
+    "options": ["Candy", "Carrot", "Soft drink", "Chips"],
+    "correct_index": 1,
+    "feedback": "Great job! Carrots contain beta-carotene, which your body can turn into vitamin A."
+  },
+  {
+    "id": "fv-2",
+    "topic": "Fruits and vegetables",
+    "difficulty": "easy",
+    "question": "Which of these is a vegetable?",
+    "options": ["Broccoli", "Gummy bears", "Cookies", "Soda"],
+    "correct_index": 0,
+    "feedback": "Yes! Broccoli is a vegetable. Vegetables give your body vitamins and fiber."
+  },
+  {
+    "id": "fv-3",
+    "topic": "Fruits and vegetables",
+    "difficulty": "hard",
+    "question": "Why is it helpful to eat fruits and vegetables of many colors?",
+    "options": ["Colors are only for decoration", "Different colors can bring different nutrients", "Only green foods are useful", "Color means the food is candy"],
+    "correct_index": 1,
+    "feedback": "Nice thinking! Orange, green, red, and yellow plants can give your body different helpers called nutrients."
+  },
+  {
+    "id": "pr-1",
+    "topic": "Proteins",
+    "difficulty": "easy",
+    "question": "Which food is a protein food?",
+    "options": ["Eggs", "Soda", "Candy", "Ice pop"],
+    "correct_index": 0,
+    "feedback": "Eggs are a protein food. Protein helps your body build and repair itself."
+  },
+  {
+    "id": "pr-2",
+    "topic": "Proteins",
+    "difficulty": "easy",
+    "question": "What does protein help your body do?",
+    "options": ["Grow and repair muscles", "Turn into soda", "Replace water", "Make homework shorter"],
+    "correct_index": 0,
+    "feedback": "Correct! Protein helps muscles grow and helps your body repair itself after play."
+  },
+  {
+    "id": "pr-3",
+    "topic": "Proteins",
+    "difficulty": "hard",
+    "question": "Which snack gives you protein?",
+    "options": ["Fruit yogurt", "Cola", "Hard candy", "A popsicle"],
+    "correct_index": 0,
+    "feedback": "Yogurt gives you protein. Drinks and candy that are mostly sugar do not."
+  },
+  {
+    "id": "cb-1",
+    "topic": "Carbohydrates",
+    "difficulty": "easy",
+    "question": "Carbohydrates mainly give your body what?",
+    "options": ["Energy to play and learn", "A new pair of shoes", "Only water", "Nothing useful"],
+    "correct_index": 0,
+    "feedback": "Yes! Carbohydrates are like fuel. Foods such as rice, bread, and fruit give you energy."
+  },
+  {
+    "id": "cb-2",
+    "topic": "Carbohydrates",
+    "difficulty": "easy",
+    "question": "Which food is a carbohydrate?",
+    "options": ["Rice", "Water", "Salt", "Ice cubes"],
+    "correct_index": 0,
+    "feedback": "Rice is a carbohydrate. It can give you energy for school and play."
+  },
+  {
+    "id": "cb-3",
+    "topic": "Carbohydrates",
+    "difficulty": "hard",
+    "question": "Which is a more filling carbohydrate choice for a meal?",
+    "options": ["Oatmeal", "A lollipop", "Soda", "Only candy"],
+    "correct_index": 0,
+    "feedback": "Oatmeal gives longer-lasting energy than candy. Candy can taste fun, and meals still need foods that fill you up."
+  },
+  {
+    "id": "vm-1",
+    "topic": "Vitamins and minerals",
+    "difficulty": "easy",
+    "question": "Which food is famous for vitamin C?",
+    "options": ["Orange", "Plain water", "Salt", "Ice"],
+    "correct_index": 0,
+    "feedback": "Oranges contain vitamin C. Vitamin C helps your body stay well and heal small scrapes."
+  },
+  {
+    "id": "vm-2",
+    "topic": "Vitamins and minerals",
+    "difficulty": "easy",
+    "question": "Calcium in milk helps which body part?",
+    "options": ["Bones and teeth", "Shoes", "Backpack", "Pencil"],
+    "correct_index": 0,
+    "feedback": "Great! Calcium is a mineral that helps bones and teeth grow strong."
+  },
+  {
+    "id": "vm-3",
+    "topic": "Vitamins and minerals",
+    "difficulty": "hard",
+    "question": "What is a vitamin?",
+    "options": ["A nutrient your body needs in small amounts", "A type of toy", "A sweet drink", "A video game"],
+    "correct_index": 0,
+    "feedback": "A vitamin is a nutrient. Your body uses vitamins from food for jobs like seeing, healing, and growing."
+  },
+  {
+    "id": "hy-1",
+    "topic": "Hydration",
+    "difficulty": "easy",
+    "question": "Which drink is the best everyday choice when you are thirsty?",
+    "options": ["Water", "Soda", "A milkshake", "Sports candy"],
+    "correct_index": 0,
+    "feedback": "Water is the best everyday drink. Your body needs water to play, think, and stay comfortable."
+  },
+  {
+    "id": "hy-2",
+    "topic": "Hydration",
+    "difficulty": "easy",
+    "question": "Why does your body need water?",
+    "options": ["To help it work and cool down", "To replace all food", "To make books heavier", "It does not need water"],
+    "correct_index": 0,
+    "feedback": "Your body uses water all day. Drinking water helps you feel ready to learn and play."
+  },
+  {
+    "id": "hy-3",
+    "topic": "Hydration",
+    "difficulty": "hard",
+    "question": "When is a sweet drink a sometimes drink?",
+    "options": ["When it is full of sugar and not your main drink", "Never, because water is not allowed", "Every time you are thirsty", "Instead of every meal"],
+    "correct_index": 0,
+    "feedback": "Sweet drinks can be a sometimes treat. Water is still the drink your body wants most of the time."
+  },
+  {
+    "id": "bm-1",
+    "topic": "Balanced meals",
+    "difficulty": "easy",
+    "question": "A balanced meal has foods from more than one what?",
+    "options": ["Food group", "Toy box", "Coloring book", "Game level"],
+    "correct_index": 0,
+    "feedback": "A balanced meal mixes food groups, such as grains, protein, and fruits or vegetables."
+  },
+  {
+    "id": "bm-2",
+    "topic": "Balanced meals",
+    "difficulty": "easy",
+    "question": "Which plate looks balanced?",
+    "options": ["Rice, beans, carrots, and water", "Only candy", "Only soda", "Only chips"],
+    "correct_index": 0,
+    "feedback": "That plate has grains, protein, vegetables, and water. Your body gets more helpers from a mix."
+  },
+  {
+    "id": "bm-3",
+    "topic": "Balanced meals",
+    "difficulty": "hard",
+    "question": "What can happen if you eat only one kind of food?",
+    "options": ["You may miss nutrients from other foods", "Your body gets every nutrient", "Water becomes unnecessary", "Food groups stop existing"],
+    "correct_index": 0,
+    "feedback": "Different foods do different jobs. Eating a mix helps your body get more of what it needs."
+  },
+  {
+    "id": "hh-1",
+    "topic": "Healthy eating habits",
+    "difficulty": "easy",
+    "question": "How can breakfast help you?",
+    "options": ["It gives you energy to start the day", "It replaces sleep forever", "It means you cannot drink water", "It is only for adults"],
+    "correct_index": 0,
+    "feedback": "Breakfast can give you energy for school and play. It is a helpful way to start the day."
+  },
+  {
+    "id": "hh-2",
+    "topic": "Healthy eating habits",
+    "difficulty": "easy",
+    "question": "What is a kind way to listen to your body at meals?",
+    "options": ["Eat when you are hungry and pause when you feel full", "Never eat snacks", "Only eat one food forever", "Ignore thirst"],
+    "correct_index": 0,
+    "feedback": "Your body can tell you when it wants food and when it has had enough. That is a healthy habit."
+  },
+  {
+    "id": "hh-3",
+    "topic": "Healthy eating habits",
+    "difficulty": "hard",
+    "question": "What is true about trying a new vegetable?",
+    "options": ["It can take many tries, and that is okay", "You must love it the first time", "Children should never try new foods", "New foods are a test you can fail"],
+    "correct_index": 0,
+    "feedback": "Tasting something new can take practice. Being curious is enough. You do not have to like every food right away."
+  }
+]

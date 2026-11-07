@@ -1,0 +1,1 @@
+"""NutriBuddy Streamlit frontend."""

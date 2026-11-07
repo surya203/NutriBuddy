@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+streamlit
+supabase
+groq
+python-dotenv
+pydantic
+requests
+plotly
+pytest
+httpx
